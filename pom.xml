@@ -108,7 +108,7 @@
 	    
 	</distributionManagement>
 	
-	<build>pId>org.apache.maven.plugins</groupId>
+	<build>pId>org.apache.maven.plugins</build>
                             <artifactId>maven-war-plugin</artifactId>
                             <version>3.3.2</version>
                         </plugin>
