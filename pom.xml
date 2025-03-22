@@ -96,24 +96,19 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.212.71.229:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
+	      <name>Facebook-Releases</name>
+	      <url>http://65.2.129.251:8081/repository/Facebook-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.212.71.229:9980/mithuntechnologies/repository/canarabank-release/</url>
+	      <name>Facebook-Snapshot</name>
+	      <url>http://65.2.129.251:8081/repository/Facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
-	<build>
-		<finalName>maven-web-application</finalName>
-		
-		<plugins>
-			<plugin>
-                            <groupId>org.apache.maven.plugins</groupId>
+	<build>pId>org.apache.maven.plugins</groupId>
                             <artifactId>maven-war-plugin</artifactId>
                             <version>3.3.2</version>
                         </plugin>
